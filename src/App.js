@@ -2,7 +2,7 @@ import { useState, useCallback, useRef, useReducer } from 'react';
 import { toHaveFocus } from '../node_modules/@testing-library/jest-dom/dist/matchers';
 import './App.css';
 import TodoInsert from './components/TodoInsert';
-import { TodoList } from './components/TodoList';
+import TodoList from './components/TodoList';
 import { TodoTemplate } from './components/TodoTemplate';
 
 function createBulkTodos() {
